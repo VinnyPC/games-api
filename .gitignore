@@ -1,1 +1,69 @@
+# ====== PYTHON ======
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.py.class
+
+# Virtualenv
+venv/
+.venv/
+ENV/
+env/
+env.bak/
 .env
+
+# Arquivos de log
+*.log
+
+# Banco de dados local (SQLite)
+*.sqlite3
+*.db
+
+# Arquivos de cache
+*.cache
+*.bak
+*.swp
+
+# ====== ENV FILES ======
+.env
+.env.*
+!*.env.example
+
+# ====== DOCKER ======
+*.pid
+*.sock
+*.tar
+docker-compose.override.yml
+docker-compose*.log
+
+# ====== IDEs ======
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# ====== SISTEMA OPERACIONAL ======
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ====== TESTES ======
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+test_output/
+pytest_cache/
