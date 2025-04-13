@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String
 from app.database.connection import Base
 
+
 class Game(Base):
     __tablename__ = "game"
 
@@ -10,4 +11,3 @@ class Game(Base):
     price = Column(Integer)
     gender = Column(String(255))
     progress = Column(String(255))
-
